@@ -3,10 +3,6 @@
   top: 0;
 }
 
-hr{
-    width: 100px;
-    align-content: center;
-}
 section#quem-sou{
     background-color: #468b64;
 }
@@ -14,9 +10,7 @@ section#quem-sou{
     background-color: #0c4424;
     position: fixed;
 }
-.card-largura{
-    max-width: 18rem;
-}
+ 
 .imagem-carrossel
 {
   height: auto;
