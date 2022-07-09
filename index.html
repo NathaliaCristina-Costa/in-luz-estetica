@@ -4,14 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brenda Roges</title>
+  <title>InLuz Estética</title>
   <script src="https://kit.fontawesome.com/ac648faac8.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <link rel="icon" href="src/img/icon_86559ed8732b9a5e28d68f08804408c8.ico">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   
 </head>
 
@@ -20,25 +21,25 @@
     <nav class="navbar navbar-expand-lg  text-uppercase fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="#">
-          <img src="/docs/5.0/src/img/3.pngvg" alt="" width="30" height="24" class="d-inline-block align-text-top fonte-titulo">
-            In Luz Estética
+          <img src="src/img/icon_86559ed8732b9a5e28d68f08804408c8.ico" alt="" width="30" height="24" class="d-inline-block align-text-top fonte-titulo">
+            InLuz Estética
         </a>  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end fonte-titulo" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end fonte-titulo fonte-titulo" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Brenda Roges</a>
+              <a class="nav-link text-white" href="#brenda">Brenda Roges</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Links</a>
+              <a class="nav-link text-white" href="#dicas&servicos">Dicas & Serviços</a>
+            </li>                     
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#feedback">FeedBacks</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Dicas & Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Orçamento</a>
+              <a class="nav-link text-white" href="#orcamento">Orçamento</a>
             </li>
           </ul>
         </div>
@@ -47,151 +48,249 @@
   </header>
   
   <main>
-    <section id="carrossel">
-      <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active ">
-            <img src="src/img/1-carroussel.svg" class="d-block w-100 imagem-carrossel" alt="In Luz Estática">
+          <div class="carousel-item active">
+            <img src="src/img/1-carroussel.png" class="img-fluid " alt="Imagem Corrossel - In luz">
           </div>
           <div class="carousel-item">
-            <img src="src/img/2.png" class="d-block w-100 imagem-carrossel-dois" alt="Autoestima, Estética e Maquiagem">
+            <img src="src/img/2.png" class="img-fluid" alt="Autoestima Estética e Maquiagem">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      
+      <section id="quem-sou">
+        <h1 class="text-center fonte-titulo text-white pt-5" data-aos="fade-left">Aprenda a Cuidar da sua beleza !</h1>
+        <p class="text-center text-light fs-4 pb-5">Maquiagem, saúde e cuidados com a pele, bem vinda ao nosso espaço de beleza.</p>
+      </section>
+      <section class="page-section mb-0" id="brenda">
+        <div class="container">
+            <!-- About Section Heading-->
+            
+            <!-- About Section Content-->
+            <div class="row justify-content-center">
+                <div class="col-6 text-center">
+                  <img class="img-brenda" src="src/img/26_04_2022 09_39_48.png" alt="IMG_3177.jpg">
+                </div>
+              <div class="col-6">
+                <h1 class="page-section-heading text-center text-uppercase fonte-titulo-carrossel pb-5">
+                  Brenda Roges
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fa-brands fa-gitlab icon-brenda"></i></div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                </h1>
+                
+                <p class="fonte-titulo fs-5">
+                  Tudo começou com a maquiagem e hoje a gente tem um espaço de beleza onde o intuito é fortalecer a autoestima das mulheres, para que elas se sintam confiantes e possam conquistar o mundo !
+                  <br><br>
+                  Esse nosso espaço foi e está sendo pensado com muito amor e carinho, venham sinta-se a vontade, você será sempre bem vinda aqui 
+                  <br><br>
+                  Quero viver esse sonho junto com você
+                  <br><br> 
+                </p>
+              </div>
+            </div>
+        </div>
+    </section>  
+    <section class="page-section container" id="dicas&servicos">   
+      <h2 class="page-section-heading text-center text-uppercase  fonte-titulo-carrossel mb-0">Dicas & Serviços</h2>   
+      <div class="container justify-content-center">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card borda-cor-especial card-largura p-0 m-5 text-center" data-aos="fade-up" style="width: 18rem;">
+              <img src="src/img/hidrata-capa.png" class="card-img-top" alt="Sua pele merece cuidados diarios">
+              <div class="card-body">
+                <h5 class="card-title fonte-titulo">Beleza é Energia</h5>
+                <p class="card-text fonte-titulo">Eu não quero ficar eternamente jovem, eu quero ficar eternamente BEM!</p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn botao-cor-especial fonte-titulo" data-bs-toggle="modal" data-bs-target="#modalBeleza">
+                    Veja Mais
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalBeleza" tabindex="-1" aria-labelledby="modalBelezaLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title fonte-titulo" id="modalBelezaLabel">Siga nossas digas e sinta-se mais bela</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="src/img/dicas_hidrate_se.jpg" class="img-fluid">
+                        </div>
+                        <div class="modal-footer">                         
+                          <a href="https://www.instagram.com/p/Cbc3T1Bu4AD/">
+                            <button type="button" class="btn btn-primary">Seguir <i class="fa-brands fa-instagram"></i></button>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card borda-cor-especial card-largura p-0 m-5 text-center" data-aos="fade-up">
+              <img src="src/img/pele-capa.png" class="card-img-top" alt="Dicas para ter uma pele bonita e saudável">
+              <div class="card-body">
+                <h5 class="card-title fonte-titulo">Produção de Madrinha de Casamento</h5>
+                <p class="card-text fonte-titulo">Todo o carinho pelas mulheres mais especiais na vida da Noiva.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn botao-cor-especial fonte-titulo" data-bs-toggle="modal" data-bs-target="#modalMadrinha">
+                  Veja Mais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modalMadrinha" tabindex="-1" aria-labelledby="modalMadrinnhaLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title fonte-titulo" id="modalMadrinnhaLabel">Se liga nessas Madrinhas! <i class="fa-solid fa-face-grin-hearts"></i></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-sm-4 feedback">
+                              <div class="card-body zoom">
+                                      <img src="src/img/foto1.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-sm-4 feedback-dois">
+                                <div class="card-body ">
+                                  <img src="src/img/foto2.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-4 feedback-tres">
+                                <div class="card-body ">
+                                    <img src="src/img/foto3.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="container-fluid">
+                          <div class="row">
+                            <div class="col-sm-4 feedback">
+                              <div class="card-body zoom">
+                                      <img src="src/img/foto4.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-sm-4 feedback-dois">
+                                <div class="card-body ">
+                                  <img src="src/img/foto5.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-4 feedback-tres">
+                                <div class="card-body ">
+                                    <img src="src/img/foto5.jpg" class="img-fluid">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://api.whatsapp.com/send?phone=
+                        5521976639448&text=Olá!" target="_blank"><button type="button" class="btn btn-success">Whatsapp <i class="fa-brands fa-whatsapp"></i></button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card borda-cor-especial card-largura p-0 m-5 text-center" data-aos="fade-up">
+              <img src="src/img/peeling.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fonte-titulo">Peeling Químico</h5>
+                <p class="card-text fonte-titulo">Um peeling químico pode auxiliar no tratamento de manchas e suavizar linhas finas da pele.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn botao-cor-especial fonte-titulo" data-bs-toggle="modal" data-bs-target="#modalPeeling">
+                  Veja Mais
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade " id="modalPeeling" tabindex="-1" aria-labelledby="modalPeelingLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title fonte-titulo text-center" id="modalPeelingLabel">
+                          Vídeos todas terças e sábados ás 19:00h
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <iframe width="600" height="315" src="https://www.youtube.com/embed/WGgT3i_GPU0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>                      
+                      <div class="modal-footer position-relative">
+                        <a href="https://www.youtube.com/channel/UCqYWu6ZLTL323Esp6oPd82A" target="_blank"><button type="button" class="btn btn-danger">Increva-se <i class="fa-brands fa-youtube"></i></button></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>    
+      </div>
+    </section>  
+    <section class="page-section" id="feedback">
+        <h2 class="page-section-heading text-center text-uppercase  fonte-titulo-carrossel ">FeedBack</h2>
+        <p class="text-center fonte-titulo fs-4">Veja o retorno de algumas de nossas clientes</p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 feedback">
+            <div class="card-body zoom">
+                    <img src="src/img/feedback-1.png" class="img-fluid">
+              </div>
+          </div>
+          <div class="col-sm-4 feedback-dois">
+              <div class="card-body ">
+                <img src="src/img/feedback-01.png" class="img-fluid" alt="">
+              </div>
+          </div>
+          <div class="col-sm-4 feedback-tres">
+              <div class="card-body ">
+                  <img src="src/img/feedback-3.jpg" class="img-fluid">
+                  </div>
+          </div>
+        </div>
+      </div>   
     </section>
-    <section id="quem-sou">
-      <h1 class="text-center fonte-titulo text-white pt-5" data-aos="fade-left">Aprenda a Cuidar da sua beleza !</h1>
-      <p class="text-center text-light fs-4 pb-5">Maquiagem, moda, saúde e cuidados com a pele, bem vinda ao nosso espaço de beleza.</p>
-    </section>
-    <section class="page-section mb-0" id="about">
+    <!-- Contact Section-->
+    <section class="page-section" id="orcamento">
       <div class="container">
-          <!-- About Section Heading-->
-          
-          <!-- About Section Content-->
-          <div class="row justify-content-center">
-            <div class="col-6 text-center"><img src="src/img/26_04_2022 09_39_48.png" alt="IMG_3177.jpg" style="width:254px;height:453px;object-fit:cover;object-position:50% 50%"></div>
-            <div class="col-6">
-              <h1 class="page-section-heading text-center text-uppercase fonte-titulo-carrossel pb-5">
-                Brenda Roges
-              </h1>
-              <p class="fonte-titulo">
-                  Oi! Se você ainda não me conhece, eu me chamo Marcela Marques, sou maquiadora, designer de penteados, advogada e libriana.
-                <br><br><br>
-                Aqui você irá encontrar uma pessoa apaixonada por seu trabalho, livre de preconceitos, além de ter como propósito pessoal elevar a autoestima das minhas clientes e noivas, formar e aperfeiçoar profissionais com excelência.
-                <br><br><br>
-                Me aperfeiçoei em mais de 20 cursos, com profissionais altamente reconhecidos no mercado, como Catlen Guerra, Kennedy Hoffmann, Nathalia Teodoro, Letícia de Paula, dentre outros, para melhor atender minhas clientes.
-                <br><br><br>
-                Além de ter feito cursos fora da maquiagem, como de fotografia e marketing.
-              </p>
-            </div>
+          <!-- Contact Section Heading-->
+          <h2 class="page-section-heading text-center text-uppercase  fonte-titulo-carrossel mb-0"> Orçamento </h2>
+          <!-- Icon Divider-->
+          <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fa fa-money icone-orcamento"></i></div>
+              <div class="divider-custom-line"></div>
+          </div>
+          <div class="row p-0 m-5 text-center ">                
+            <div class="col-sm-12 container">
+              <img src="src/img/5.png" class="img-fluid imagem">                                                 
+            </div>                           
+          </div>
+          <!-- Contact Section Form-->
+          <div class="row justify-content-center">          
+            <p class="text-center fonte-titulo fs-4">Seja InLuz +Plus : <a href="https://chat.whatsapp.com/FepQEbEsRt5ETeA8ZKlmEl" target="_blank"><i class="fa-solid fa-heart-circle-plus"></i></a></p>
           </div>
       </div>
-  </section>  
-    <section class="container" id="links">      
-      <div class="row justify-content-center">
-        <article class="card borda-cor-especial p-0 m-5" data-aos="fade-up"  style="max-width: 1000px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="src/img/1.png" class="img-fluid rounded-start" alt="Vejas Dicas Incriveis Sobre Limpeza de Pele">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body ">
-                <h5 class="card-title fonte-titulo">Vejas Dicas Incriveis Sobre Limpeza de Pele e mutio mais</h5>
-                <p class="card-text fonte-titulo">Novos vídeos toda semana.</p>
-                <p class="card-text fonte-titulo">Terça | Sabado</p>
-                <a href="https://www.youtube.com/watch?v=oAl13eCdIvU" class="btn botao-cor-especial"><i class="fa-brands fa-youtube"></i>&nbsp Veja Mais</a>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-      <div class="row justify-content-center">
-        <article class="card borda-cor-especial p-0 m-5" data-aos="fade-up" style="max-width: 1000px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="src/img/3.png" class="img-fluid rounded-start" alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body ">
-                <h5 class="card-title fonte-titulo">De Sua Curtida e Acompanhe Dicas Incríveis</h5>
-                <p class="card-text fonte-titulo">Postagem do dia-a-dia</p>
-                <a href="https://www.instagram.com/p/CZ9ZyMTrqiz/" class="btn botao-cor-especial"><i class="fa-brands fa-instagram"></i>&nbsp Veja Mais</a>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+    </section>  
   </main>
-  <section class="container">
-    <h2 class="page-section-heading text-center text-uppercase fonte-titulo-carrossel pt-5 pb-5">Dicas & Serviços</h2>
-    
-    <div class="row justify-content-center">
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> 
-  </section>
-  <!-- Contact Section-->
-  <section class="page-section" id="contact">
-    <div class="container">
-        <!-- Contact Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase  fonte-titulo-carrossel mb-0">Faça Seu Orçamento </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fa fa-money" style="font-size:36px;color:#0c4424"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <!-- Contact Section Form-->
-        <div class="row justify-content-center">
-          
-          <p class="text-center fonte-titulo fs-4">Clique aqui em venha fazer seu Orçamento!</p>
-          <div class="position-relative m-4">
-            <a href="https://api.whatsapp.com/send?phone=
-            5521976639448&text=Olá Brenda,Gostaria de fazer um orçamento!"><button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-primary rounded-pill btn btn-success" ><i class="fa fa-whatsapp icon-wahts" style="font-size:48px;"></i></button></a>
-          </div>
-        </div>
-    </div>
-</section>
+  
   <footer class="footer text-center">
     <div class="container">
         <div class="row">
@@ -216,13 +315,14 @@
 </footer>
 
 <div class="copyright py-4 text-center text-white">
-  <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+  <div class="container"><small>Copyright &copy; Código da Nathi 2022</small></div>
 </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
     AOS.init({
       duration: 1000,
