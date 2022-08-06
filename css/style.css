@@ -1,3 +1,4 @@
+
 .card-largura{
   width: 18rem;
 }
@@ -9,6 +10,10 @@
     background-color: #0c4424;
     position: fixed;
 }
+.texto-nav{
+  color: #d9a454;
+}
+
 .font{
   color: #beaa8e;
 }
@@ -117,7 +122,18 @@
     border:solid 1px #0c4424;
     box-shadow: 0 0 1em #0c4424;
   }
-
+  .container-imagem{
+    position: relative;
+  }
+  .btn-gold{
+    background-color: #d9a454;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-size: large;
+  }
+  .cor-icone{
+    color: #d9a454;
+  }
   .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;

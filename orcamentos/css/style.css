@@ -1,0 +1,22 @@
+body{
+    background-color: #fff;
+    margin: 0px;
+  }
+  .page-section {
+    padding: 6rem 0;
+  }
+  .font{
+    font-family: 'Cinzel', serif;
+    color: #d9a454;
+  }
+  .imagem{
+      width: 40%;    
+      border-radius: 10px;
+      border:solid 1px #0c4424;
+      box-shadow: 0 0 1em #0c4424;
+  }
+  .container {
+    position: relative;
+  }
+  
+  
